@@ -2,7 +2,7 @@ public class Radix{
   
   public static void radixsort(int[]data){
     
-    MyLinkedMist<Integer>[] = new MyLinkedList[20];
+    MyLinkedList<Integer>[] = new MyLinkedList[20];
     
     for(Integer n : data){
       if(n > 0){
@@ -12,6 +12,11 @@ public class Radix{
   
   }
   
+  public static int max(int[] data)
+  }
+  
+  public static int getDigit(int i){
+  }
   
   public static void main(String[] args){}
   
