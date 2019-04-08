@@ -42,14 +42,10 @@ public class Radix{
         } 
       }
   
+  }  
+  public static int getDigit(int i, int dig){
+    
+    return (j / (int)Math.round(Math.pow(10, dig - 1))) % 10;
+  
   }
-  
-  public static int max(int[] data)
-  }
-  
-  public static int getDigit(int i){
-  }
-  
-  public static void main(String[] args){}
-  
  }
