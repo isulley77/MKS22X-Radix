@@ -128,6 +128,19 @@ class MyLinkedList{
 
   public void extend(MyLinkedList other){
 
+    if(other.start != null){
+      if(start == null){
+        start = other.getNthNode(0);
+        end = other.getNthNode(size - 1);
+        size = other.size();
+        other.clear();
+      }else{
+        end.setNext(other.start());
+        other.getStart().setPrev(end);
+        end  = other.getEnd();
+        size += other.size;
+        other.clear;
+    }
 
   }
 }
